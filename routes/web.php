@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function () {
-    return view('index');
+    return view('404');
 });
